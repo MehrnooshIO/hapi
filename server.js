@@ -1,5 +1,9 @@
 'use strict';
 
+const logrocket = require('logrocket')
+logrocket.init('rneivn/mehrnooshproject');
+
+
 const Hapi = require('@hapi/hapi');
 
 const init = async () => {
